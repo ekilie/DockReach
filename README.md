@@ -1,9 +1,12 @@
-<h1>
-  <img src="/assets/extension-icon.svg" alt="Project Logo" width="100" height="100" style="vertical-align: middle; margin-right: 10px;">
-  DockReach
-</h1>
+<p align="center">
+  <img src="assets/extension-icon.svg" alt="DockReach logo" width="120" height="120">
+</p>
 
-A Docker Desktop extension for managing and monitoring remote Docker environments over SSH.
+<h1 align="center">DockReach</h1>
+
+<p align="center">
+  A Docker Desktop extension for managing and monitoring remote Docker environments over SSH.
+</p>
 
 ## Features
 
