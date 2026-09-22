@@ -460,7 +460,7 @@ export function App() {
               height: '100%'
             }}
           >
-            {navItems.find(item => item.key === currentPage)?.label || 'Remote Docker'}
+            {navItems.find(item => item.key === currentPage)?.label || 'DockReach'}
           </Typography>
 
           {/* SSH Tunnel Status Indicator */}
@@ -594,7 +594,7 @@ export function App() {
               fontWeight: (theme) => theme.typography.fontWeightMedium
             }}
           >
-            Remote Docker
+            DockReach
           </Typography>
         </Toolbar>
 

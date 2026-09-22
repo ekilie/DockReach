@@ -1,4 +1,4 @@
-module remote-docker
+module dockreach
 
 go 1.21.13
 
