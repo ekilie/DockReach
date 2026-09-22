@@ -1,0 +1,11 @@
+services:
+  remote-docker:
+    image: ${DESKTOP_PLUGIN_IMAGE}
+    volumes:
+      # Mount SSH configuration from the host (user's machine)
+      - ~/.ssh:/root/.ssh:ro
+      # Plugin data
+      - "remote-docker:/root/docker-extension/"
+
+volumes:
+  remote-docker:

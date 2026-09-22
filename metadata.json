@@ -1,0 +1,16 @@
+{
+  "icon": "extension-icon.svg",
+  "vm": {
+    "composefile": "docker-compose.yaml",
+    "exposes": {
+      "socket": "backend.sock"
+    }
+  },
+  "ui": {
+    "dashboard-tab": {
+      "title": "Remote Docker",
+      "src": "index.html",
+      "root": "ui"
+    }
+  }
+}
