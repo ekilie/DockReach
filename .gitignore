@@ -1,2 +1,5 @@
 node_modules
 ui/build
+# Go build output
+/backend/dockreach
+/backend/bin/
